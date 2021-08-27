@@ -1,6 +1,5 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 테스트 코딩 (쇼핑물 메인 페이지)
+쇼핑물 메인 페이지를 react로 개발 하였습니다.
 
 ## Available Scripts
 
