@@ -1,0 +1,68 @@
+/* Footer style */
+
+.footer__layout {
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid #E5E5E5;
+    padding-top: 50px;
+    margin-top: 10px;
+}
+
+
+.footer__layout > .footer__container {
+
+    padding: 10px 0;
+    align-items: flex-end;
+    
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.footer__container .introduce1 .introduce-description {
+    margin-bottom: 0;
+}
+.footer__container .introduce1 .introduce-phone {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+
+
+.footer__container .introduce1 .introduce-bottom .company-info th {
+    padding-right: 10px;
+}
+
+.footer__container .introduce1 .introduce-bottom .company-info th, .footer .introduce1 .introduce-bottom .company-info td{
+    text-align: left;
+
+}
+
+.footer__container .introduce2 {
+    text-align: right;
+    vertical-align: bottom;
+}
+.footer__container .introduce2 .social-media li {
+    display: inline-block;
+    margin: 0 8px;
+}
+.footer__container .introduce2 .social-media li a {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+}
+
+.footer__container .introduce2 .menu li {
+    display: inline-block;
+    margin-left: 40px;
+}
+.footer__container .introduce2 .menu li a{
+    color: #000;
+    font-weight: bold;
+}
+
+.footer__container .introduce2 .company-info {
+    margin-bottom: 0;
+
+}

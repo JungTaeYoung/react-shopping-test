@@ -1,0 +1,89 @@
+/* Header style */
+
+.header__layout {
+    display: flex;
+    justify-content: center;
+    padding-top: 0;
+}
+
+
+.header__layout > .header__container {
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__layout > .header__container .menu {
+    width: 100%;
+}
+
+.header__layout > .header__container .logo-box{
+    text-align: center;
+}
+
+.header__layout > .header__container .top-menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__layout > .header__container .top-menu .menu__list { 
+}
+
+.header__layout > .header__container .top-menu .top-menu__list  li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 0.8em;
+}
+
+.header__layout > .header__container .top-menu .top-menu__list a {
+    font-size: 0.8em;
+    color: #7F7F7F;
+    font-weight: bold;
+}
+
+.header__layout > .header__container .top-menu .top-menu__list li.active a {
+    color: #FF6D40;
+}
+
+
+
+
+
+
+.header__layout > .header__container .bottom-menu {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__layout > .header__container .bottom-menu .bottom-menu__lists {
+    font-weight: bold;
+    width: 804px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__layout > .header__container .bottom-menu .bottom-menu__lists li{
+    display: flex;
+    height: 30px;
+    line-height: 30px;
+}
+.header__layout > .header__container .bottom-menu .bottom-menu__lists li.menu__in__icon{
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+.header__layout > .header__container .bottom-menu .bottom-menu__lists li.menu__in__icon svg{
+    flex-grow: 1;
+}
+.header__layout > .header__container .bottom-menu .bottom-menu__lists li.menu__in__icon span{
+    margin-left: 10px;
+}
+.header__layout > .header__container .bottom-menu .bottom-menu__lists li > *{
+}
+
+.item-box__container {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
